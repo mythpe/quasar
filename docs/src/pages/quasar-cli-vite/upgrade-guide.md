@@ -211,7 +211,7 @@ Preparations:
   + import { defineConfig } from '#q-app/wrappers'
 
   - import { boot } from 'quasar/wrappers'
-  + import { defineBoot } from '#q-app/wrappers'
+  + import { defineBootFile } from '#q-app/wrappers'
 
   - import { preFetch } from 'quasar/wrappers'
   + import { definePreFetch } from '#q-app/wrappers'
